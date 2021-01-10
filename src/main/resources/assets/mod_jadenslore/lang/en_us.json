@@ -1,9 +1,14 @@
 {
   "itemGroup.tabjlct": "Jaden\u0027s Lore",
+  "item.mod_jadenslore.andr_eentity_spawn_egg": "Andre Spawn Egg",
   "block.mod_jadenslore.twerker": "Twerker Block",
-  "block.mod_jadenslore.sackgrowa": "Sackgrowa",
-  "block.mod_jadenslore.shakedatfatbootay": "SHAKE DAT FAT BOOTAY",
+  "subtitles.andre1": "Andre Sucks a Vanilla Bean",
   "block.mod_jadenslore.sackura": "Sackura",
+  "subtitles.andre2": "Andre Slaps a Vanilla Bean",
+  "block.mod_jadenslore.sackgrowa": "Sackgrowa",
+  "subtitles.suckmyvanillabeanfull": "Andre Hugs His Vanilla Bean",
+  "block.mod_jadenslore.shakedatfatbootay": "SHAKE DAT FAT BOOTAY",
+  "entity.mod_jadenslore.andr_eentity": "Andre",
   "item.mod_jadenslore.sackersword": "Sacker",
   "item.mod_jadenslore.sack": "White Sack"
 }

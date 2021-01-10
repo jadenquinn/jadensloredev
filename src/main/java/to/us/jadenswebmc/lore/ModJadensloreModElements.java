@@ -45,6 +45,12 @@ public class ModJadensloreModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ModJadensloreModElements() {
+		sounds.put(new ResourceLocation("mod_jadenslore", "andre1"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("mod_jadenslore", "andre1")));
+		sounds.put(new ResourceLocation("mod_jadenslore", "andre2"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("mod_jadenslore", "andre2")));
+		sounds.put(new ResourceLocation("mod_jadenslore", "suckmyvanillabeanfull"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("mod_jadenslore", "suckmyvanillabeanfull")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("mod_jadenslore").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

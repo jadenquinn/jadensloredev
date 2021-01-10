@@ -1,1 +1,32 @@
-{}
+{
+  "andre1": {
+    "category": "master",
+    "subtitle": "subtitles.andre1",
+    "sounds": [
+      {
+        "name": "mod_jadenslore:andre1",
+        "stream": false
+      }
+    ]
+  },
+  "andre2": {
+    "category": "master",
+    "subtitle": "subtitles.andre2",
+    "sounds": [
+      {
+        "name": "mod_jadenslore:andre2",
+        "stream": false
+      }
+    ]
+  },
+  "suckmyvanillabeanfull": {
+    "category": "record",
+    "subtitle": "subtitles.suckmyvanillabeanfull",
+    "sounds": [
+      {
+        "name": "mod_jadenslore:untitled",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -252,17 +252,56 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "twerkerbsmelting"
+    },
+    {
+      "name": "ANDREentity",
+      "type": "mob",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andr_eentity"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "andre1",
+      "files": [
+        "andre1"
+      ],
+      "category": "master",
+      "subtitle": "Andre Sucks a Vanilla Bean"
+    },
+    {
+      "name": "andre2",
+      "files": [
+        "andre2"
+      ],
+      "category": "master",
+      "subtitle": "Andre Slaps a Vanilla Bean"
+    },
+    {
+      "name": "suckmyvanillabeanfull",
+      "files": [
+        "untitled"
+      ],
+      "category": "record",
+      "subtitle": "Andre Hugs His Vanilla Bean"
+    }
+  ],
   "language_map": {
     "en_us": {
       "itemGroup.tabjlct": "Jaden\u0027s Lore",
+      "item.mod_jadenslore.andr_eentity_spawn_egg": "Andre Spawn Egg",
       "block.mod_jadenslore.twerker": "Twerker Block",
-      "block.mod_jadenslore.sackgrowa": "Sackgrowa",
-      "block.mod_jadenslore.shakedatfatbootay": "SHAKE DAT FAT BOOTAY",
+      "subtitles.andre1": "Andre Sucks a Vanilla Bean",
       "block.mod_jadenslore.sackura": "Sackura",
+      "subtitles.andre2": "Andre Slaps a Vanilla Bean",
+      "block.mod_jadenslore.sackgrowa": "Sackgrowa",
+      "subtitles.suckmyvanillabeanfull": "Andre Hugs His Vanilla Bean",
+      "block.mod_jadenslore.shakedatfatbootay": "SHAKE DAT FAT BOOTAY",
+      "entity.mod_jadenslore.andr_eentity": "Andre",
       "item.mod_jadenslore.sackersword": "Sacker",
       "item.mod_jadenslore.sack": "White Sack"
     }
