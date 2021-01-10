@@ -90,7 +90,7 @@ public class ANDREentityEntity extends ModJadensloreModElements.ModElement {
 				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("mod_jadenslore:textures/7433417c274017be.png");
+						return new ResourceLocation("mod_jadenslore:textures/ass.png");
 					}
 				};
 				customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));

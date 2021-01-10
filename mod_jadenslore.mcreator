@@ -245,15 +245,6 @@
       "registry_name": "twerkerbrecipe"
     },
     {
-      "name": "Twerkerbsmelting",
-      "type": "recipe",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "twerkerbsmelting"
-    },
-    {
       "name": "ANDREentity",
       "type": "mob",
       "sortid": 14,
@@ -270,6 +261,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "smvb_disc"
+    },
+    {
+      "name": "Twerkcatalyst",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twerkcatalyst"
+    },
+    {
+      "name": "Shakeblockrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shakeblockrecipe"
     }
   ],
   "variable_elements": [],
@@ -305,6 +314,7 @@
       "item.mod_jadenslore.andr_eentity_spawn_egg": "Andre Spawn Egg",
       "block.mod_jadenslore.twerker": "Twerker Block",
       "subtitles.andre1": "Andre Sucks a Vanilla Bean",
+      "item.mod_jadenslore.twerkcatalyst": "Lore Catalyst",
       "subtitles.andre2": "Andre Slaps a Vanilla Bean",
       "block.mod_jadenslore.sackura": "Sackura",
       "item.mod_jadenslore.smvb_disc.desc": "\"Suck My Vanilla Bean\" - Andre 2020",
@@ -320,7 +330,7 @@
   "workspaceSettings": {
     "modid": "mod_jadenslore",
     "modName": "Jaden\u0027s Lore",
-    "version": "1.2.6.craftfix",
+    "version": "1.3.1",
     "description": "Hey, guys and gals. This mod was created by JadensWebMC and is owned by JadensWeb. I made this mod because I love a lot of the funny moments I have with some people, you know who you are, and boom, made a mod around said funny moments.",
     "author": "JadensWebMC, JadensWeb, Andre, MrFinDrew",
     "websiteURL": "http://jadenswebmc.us.to/jadensmod/",

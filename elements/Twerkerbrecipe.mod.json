@@ -25,20 +25,20 @@
         "value": "Blocks.REDSTONE_BLOCK"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Blocks.OBSIDIAN"
       },
       {
         "value": "CUSTOM:Shakedatfatbootay"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Blocks.OBSIDIAN"
       },
       {
         "value": "CUSTOM:Shakedatfatbootay"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.PLAYER_WALL_HEAD"
+      "value": "CUSTOM:SMVBDisc"
     },
     "name": "twerkerbrecipe",
     "namespace": "mod"
