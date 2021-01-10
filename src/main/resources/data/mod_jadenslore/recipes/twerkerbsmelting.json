@@ -1,0 +1,12 @@
+{
+  "group": "mod_jadenslore",
+  "type": "minecraft:smoking",
+  "experience": 8,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "minecraft:player_wall_head"
+  },
+  "result": {
+    "item": "mod_jadenslore:twerker"
+  }
+}

@@ -1,0 +1,162 @@
+
+package to.us.jadenswebmc.lore.block;
+
+import to.us.jadenswebmc.lore.procedures.SackuraPlantDestroyedByExplosionProcedure;
+import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
+import to.us.jadenswebmc.lore.item.SackItem;
+import to.us.jadenswebmc.lore.ModJadensloreModElements;
+
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.world.BiomeLoadingEvent;
+import net.minecraftforge.common.PlantType;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.gen.feature.FlowersFeature;
+import net.minecraft.world.gen.feature.Features;
+import net.minecraft.world.gen.feature.DefaultFlowersFeature;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
+import net.minecraft.world.gen.feature.BlockClusterFeatureConfig;
+import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
+import net.minecraft.world.gen.blockplacer.SimpleBlockPlacer;
+import net.minecraft.world.gen.GenerationStage;
+import net.minecraft.world.gen.ChunkGenerator;
+import net.minecraft.world.World;
+import net.minecraft.world.ISeedReader;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.world.Explosion;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.RegistryKey;
+import net.minecraft.util.Direction;
+import net.minecraft.potion.Effects;
+import net.minecraft.loot.LootContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.block.material.MaterialColor;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.FlowerBlock;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import java.util.Random;
+import java.util.Map;
+import java.util.List;
+import java.util.HashMap;
+import java.util.Collections;
+
+@ModJadensloreModElements.ModElement.Tag
+public class SackuraBlock extends ModJadensloreModElements.ModElement {
+	@ObjectHolder("mod_jadenslore:sackura")
+	public static final Block block = null;
+	public SackuraBlock(ModJadensloreModElements instance) {
+		super(instance, 2);
+		MinecraftForge.EVENT_BUS.register(this);
+	}
+
+	@Override
+	public void initElements() {
+		elements.blocks.add(() -> new BlockCustomFlower());
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(JlctItemGroup.tab)).setRegistryName(block.getRegistryName()));
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public void clientLoad(FMLClientSetupEvent event) {
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
+	}
+
+	@SubscribeEvent
+	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		FlowersFeature feature = new DefaultFlowersFeature(BlockClusterFeatureConfig.field_236587_a_) {
+			@Override
+			public BlockState getFlowerToPlace(Random random, BlockPos bp, BlockClusterFeatureConfig fc) {
+				return block.getDefaultState();
+			}
+
+			@Override
+			public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
+				RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
+				boolean dimensionCriteria = false;
+				if (dimensionType == World.OVERWORLD)
+					dimensionCriteria = true;
+				if (dimensionType == World.THE_NETHER)
+					dimensionCriteria = true;
+				if (!dimensionCriteria)
+					return false;
+				return super.generate(world, generator, random, pos, config);
+			}
+		};
+		event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION).add(() -> (ConfiguredFeature<?, ?>) feature
+				.withConfiguration(
+						(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
+								.tries(64).build())
+				.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(2));
+	}
+	public static class BlockCustomFlower extends FlowerBlock {
+		public BlockCustomFlower() {
+			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS, MaterialColor.GRASS).doesNotBlockMovement().sound(SoundType.PLANT)
+					.hardnessAndResistance(0f, 0f).setLightLevel(s -> 0));
+			setRegistryName("sackura");
+		}
+
+		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 60;
+		}
+
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("You know how theres like white sacks"));
+			list.add(new StringTextComponent("when you open your PC?"));
+			list.add(new StringTextComponent("Like there's always like a white sack inside?"));
+			list.add(new StringTextComponent("Jaden"));
+			list.add(new StringTextComponent("what's inside the white sack??"));
+		}
+
+		@Override
+		public int getFireSpreadSpeed(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 42;
+		}
+
+		@Override
+		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
+			if (!dropsOriginal.isEmpty())
+				return dropsOriginal;
+			return Collections.singletonList(new ItemStack(SackItem.block, (int) (2)));
+		}
+
+		@Override
+		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
+			return PlantType.PLAINS;
+		}
+
+		@Override
+		public void onExplosionDestroy(World world, BlockPos pos, Explosion e) {
+			super.onExplosionDestroy(world, pos, e);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				SackuraPlantDestroyedByExplosionProcedure.executeProcedure($_dependencies);
+			}
+		}
+	}
+}

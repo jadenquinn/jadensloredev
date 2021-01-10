@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "Jaden's Lore",
+    "icon": {
+      "value": "Items.WHEAT_SEEDS"
+    },
+    "showSearch": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sackersword",
+    "customModelName": "Normal",
+    "name": "Sacker",
+    "specialInfo": [
+      "The power of Andre is with you..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Jlct"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 7,
+    "efficiency": 12.0,
+    "attackSpeed": 6.0,
+    "enchantability": 18,
+    "damageVsEntity": 8.5,
+    "usageCount": 16384,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Sack"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "SackerswordRightClickedOnBlock"
+    },
+    "onEntityHitWith": {
+      "name": "SackerswordLivingEntityIsHitWithTool"
+    },
+    "onEntitySwing": {
+      "name": "SackerswordEntitySwingsItem"
+    }
+  }
+}

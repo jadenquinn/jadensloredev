@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=1": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=2": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=3": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=4": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=5": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=6": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=7": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=8": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=9": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=10": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=11": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=12": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=13": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=14": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    },
+    "age=15": {
+      "model": "mod_jadenslore:block/sackgrowa"
+    }
+  }
+}

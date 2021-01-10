@@ -1,0 +1,52 @@
+{
+  "_fv": 15,
+  "_type": "plant",
+  "definition": {
+    "renderType": 13,
+    "texture": "whiteplant",
+    "textureBottom": "",
+    "customModelName": "Crop model",
+    "itemTexture": "white0",
+    "particleTexture": "",
+    "plantType": "growapable",
+    "staticPlantGenerationType": "Flower",
+    "growapableSpawnType": "Crop",
+    "growapableMaxHeight": 1,
+    "doublePlantGenerationType": "Flower",
+    "name": "Sackgrowa",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Jlct"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "CLOTH"
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": "CUSTOM:Sack"
+    },
+    "dropAmount": 3,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "GRASS",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 50,
+    "fireSpreadSpeed": 24,
+    "frequencyOnChunks": 0,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "SackgrowaMobplayerCollidesWithPlant"
+    }
+  }
+}
