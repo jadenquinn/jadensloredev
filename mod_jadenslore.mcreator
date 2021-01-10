@@ -261,6 +261,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "andr_eentity"
+    },
+    {
+      "name": "SMVBDisc",
+      "type": "musicdisc",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smvb_disc"
     }
   ],
   "variable_elements": [],
@@ -296,14 +305,16 @@
       "item.mod_jadenslore.andr_eentity_spawn_egg": "Andre Spawn Egg",
       "block.mod_jadenslore.twerker": "Twerker Block",
       "subtitles.andre1": "Andre Sucks a Vanilla Bean",
-      "block.mod_jadenslore.sackura": "Sackura",
       "subtitles.andre2": "Andre Slaps a Vanilla Bean",
+      "block.mod_jadenslore.sackura": "Sackura",
+      "item.mod_jadenslore.smvb_disc.desc": "\"Suck My Vanilla Bean\" - Andre 2020",
       "block.mod_jadenslore.sackgrowa": "Sackgrowa",
       "subtitles.suckmyvanillabeanfull": "Andre Hugs His Vanilla Bean",
       "block.mod_jadenslore.shakedatfatbootay": "SHAKE DAT FAT BOOTAY",
       "entity.mod_jadenslore.andr_eentity": "Andre",
       "item.mod_jadenslore.sackersword": "Sacker",
-      "item.mod_jadenslore.sack": "White Sack"
+      "item.mod_jadenslore.sack": "White Sack",
+      "item.mod_jadenslore.smvb_disc": "Music Disc"
     }
   },
   "workspaceSettings": {

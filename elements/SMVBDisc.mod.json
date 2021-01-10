@@ -1,0 +1,19 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "smvbtexture",
+    "name": "Music Disc",
+    "description": "\"Suck My Vanilla Bean\" - Andre 2020",
+    "creativeTab": {
+      "value": "CUSTOM:Jlct"
+    },
+    "music": {
+      "value": "CUSTOM:suckmyvanillabeanfull"
+    },
+    "specialInfo": [
+      "This harnesses the power of Andre within you"
+    ],
+    "hasGlow": true
+  }
+}
