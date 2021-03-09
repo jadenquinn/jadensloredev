@@ -306,6 +306,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "andre_attacker"
+    },
+    {
+      "name": "Nikolite",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nikolite"
+    },
+    {
+      "name": "NikoliteOre",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nikolite_ore"
+    },
+    {
+      "name": "NikoliteOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nikolite_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -340,11 +387,13 @@
       "itemGroup.tabjlct": "Jaden\u0027s Lore",
       "item.mod_jadenslore.andr_eentity_spawn_egg": "Andre Spawn Egg",
       "block.mod_jadenslore.twerker": "Twerker Block",
+      "item.mod_jadenslore.nikolite": "Nikolite",
       "item.mod_jadenslore.twerkcatalyst": "Lore Catalyst",
       "subtitles.andre1": "Andre Sucks a Vanilla Bean",
       "subtitles.andre2": "Andre Slaps a Vanilla Bean",
       "block.mod_jadenslore.sackura": "Sackura",
       "item.mod_jadenslore.smvb_disc.desc": "\"Suck My Vanilla Bean\" - Andre 2020",
+      "block.mod_jadenslore.nikolite_ore": "Nikolite Ore",
       "item.mod_jadenslore.andre_attacker_spawn_egg": "ANDRE Spawn Egg",
       "entity.mod_jadenslore.andre_attacker": "ANDRE",
       "block.mod_jadenslore.sackgrowa": "Sackgrowa",
@@ -359,7 +408,7 @@
   "workspaceSettings": {
     "modid": "mod_jadenslore",
     "modName": "Jaden\u0027s Lore",
-    "version": "1.3.3",
+    "version": "1.4",
     "description": "Hey, guys and gals. This mod was created by JadensWebMC and is owned by JadensWeb. I made this mod because I love a lot of the funny moments I have with some people, you know who you are, and boom, made a mod around said funny moments.",
     "author": "JadensWebMC, JadensWeb, Andre, MrFinDrew",
     "websiteURL": "http://jadenswebmc.us.to/jadensmod/",
