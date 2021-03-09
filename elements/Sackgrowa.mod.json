@@ -8,6 +8,8 @@
     "customModelName": "Crop model",
     "itemTexture": "white0",
     "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
     "plantType": "growapable",
     "staticPlantGenerationType": "Flower",
     "growapableSpawnType": "Crop",

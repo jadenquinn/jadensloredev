@@ -1,0 +1,25 @@
+{
+  "group": "mod_jadenslore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dragon_head"
+    },
+    {
+      "item": "mod_jadenslore:sack"
+    },
+    {
+      "item": "mod_jadenslore:sack"
+    },
+    {
+      "item": "mod_jadenslore:sack"
+    },
+    {
+      "item": "mod_jadenslore:sack"
+    }
+  ],
+  "result": {
+    "item": "mod_jadenslore:twerkcatalyst",
+    "count": 1
+  }
+}

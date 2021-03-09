@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Blocks.SKULL#5"
+      },
+      {
+        "value": "CUSTOM:Sack"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Sack"
+      },
+      {
+        "value": "CUSTOM:Sack"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Sack"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Twerkcatalyst"
+    },
+    "name": "catalystrec1",
+    "namespace": "mod"
+  }
+}
