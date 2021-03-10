@@ -1,0 +1,42 @@
+{
+  "group": "mod_jadenslore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mod_jadenslore:compressednikolitebloc"
+    },
+    "1": {
+      "item": "mod_jadenslore:compressednikolitebloc"
+    },
+    "2": {
+      "item": "mod_jadenslore:compressednikolitebloc"
+    },
+    "3": {
+      "item": "mod_jadenslore:compressednikblock_1"
+    },
+    "4": {
+      "item": "mod_jadenslore:compressednikblock_1"
+    },
+    "5": {
+      "item": "mod_jadenslore:compressednikblock_1"
+    },
+    "6": {
+      "item": "mod_jadenslore:compressednikolitebloc"
+    },
+    "7": {
+      "item": "mod_jadenslore:compressednikolitebloc"
+    },
+    "8": {
+      "item": "mod_jadenslore:compressednikolitebloc"
+    }
+  },
+  "result": {
+    "item": "mod_jadenslore:doublecompnikblock",
+    "count": 1
+  }
+}

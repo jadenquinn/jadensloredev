@@ -2,7 +2,7 @@
   "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "compnik2",
+    "texture": "comp2",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -26,10 +26,10 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Compressed Nikolite Block",
+    "name": "Double Compressed Nikolite Block",
     "specialInfo": [],
-    "hardness": 5.0,
-    "resistance": 10.0,
+    "hardness": 3.0,
+    "resistance": 20.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -37,28 +37,28 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Compressednikblock1"
+      "value": "CUSTOM:Compnikoliteingot"
     },
-    "dropAmount": 6,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
-    "enchantPowerBonus": 10.0,
+    "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canProvidePower": true,
+    "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "QUARTZ",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "beaconColorModifier": {
-      "value": -10066330,
+      "value": -13395457,
       "falpha": 0.0
     },
     "flammability": 0,
@@ -68,11 +68,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
