@@ -427,6 +427,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "compnikblockrec"
+    },
+    {
+      "name": "Compressednikblock1",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressednikblock_1"
+    },
+    {
+      "name": "Compressing1",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressing_1"
     }
   ],
   "variable_elements": [],
@@ -459,6 +477,7 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabjlct": "Jaden\u0027s Lore",
+      "block.mod_jadenslore.compressednikblock_1": "Nikolite Block",
       "item.mod_jadenslore.andr_eentity_spawn_egg": "Andre Spawn Egg",
       "block.mod_jadenslore.twerker": "Twerker Block",
       "item.mod_jadenslore.nikolite": "Nikolite",
@@ -474,7 +493,7 @@
       "entity.mod_jadenslore.andre_attacker": "ANDRE",
       "block.mod_jadenslore.sackgrowa": "Sackgrowa",
       "subtitles.suckmyvanillabeanfull": "Andre Hugs His Vanilla Bean",
-      "block.mod_jadenslore.compressednikolitebloc": "Compressed Nikolite",
+      "block.mod_jadenslore.compressednikolitebloc": "Compressed Nikolite Block",
       "block.mod_jadenslore.shakedatfatbootay": "SHAKE DAT FAT BOOTAY",
       "entity.mod_jadenslore.andr_eentity": "Andre",
       "item.mod_jadenslore.sackersword": "Sacker",

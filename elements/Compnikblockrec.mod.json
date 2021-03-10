@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Compressednikolitebloc"
+      "value": "CUSTOM:Compressednikblock1"
     },
     "name": "compnikblockrecipe",
     "namespace": "mod"

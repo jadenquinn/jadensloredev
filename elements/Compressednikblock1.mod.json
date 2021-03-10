@@ -2,7 +2,7 @@
   "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "compnik2",
+    "texture": "compnik",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -26,22 +26,22 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Compressed Nikolite Block",
+    "name": "Nikolite Block",
     "specialInfo": [],
-    "hardness": 5.0,
+    "hardness": 0.25,
     "resistance": 10.0,
-    "hasGravity": false,
+    "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Jlct"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "shovel",
     "customDrop": {
-      "value": "CUSTOM:Compnikoliteingot"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "enchantPowerBonus": 10.0,
+    "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": true,
     "lightOpacity": 255,
@@ -51,14 +51,14 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "QUARTZ",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "beaconColorModifier": {
-      "value": -10066330,
+      "value": -13369345,
       "falpha": 0.0
     },
     "flammability": 0,
@@ -72,7 +72,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -97,9 +97,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "CompressednikoliteblocBlockDestroyedByPlayer"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -3,6 +3,7 @@ package to.us.jadenswebmc.lore.block;
 
 import to.us.jadenswebmc.lore.procedures.CompressednikoliteblocBlockDestroyedByPlayerProcedure;
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
+import to.us.jadenswebmc.lore.item.CompnikoliteingotItem;
 import to.us.jadenswebmc.lore.ModJadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -22,7 +23,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.FallingBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -44,10 +44,10 @@ public class CompressednikoliteblocBlock extends ModJadensloreModElements.ModEle
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(JlctItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends FallingBlock {
+	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(0.25f, 10f).setLightLevel(s -> 0)
-					.harvestLevel(2).harvestTool(ToolType.PICKAXE));
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).setLightLevel(s -> 0).harvestLevel(2)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("compressednikolitebloc");
 		}
 
@@ -76,7 +76,7 @@ public class CompressednikoliteblocBlock extends ModJadensloreModElements.ModEle
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(CompnikoliteingotItem.block, (int) (1)));
 		}
 
 		@Override
