@@ -353,6 +353,71 @@
           }
         ]
       }
+    },
+    {
+      "name": "Nikolitesword1",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nikolitesword_1"
+    },
+    {
+      "name": "Compressednikolitebloc",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressednikolitebloc"
+    },
+    {
+      "name": "Compnikoliteingot",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compnikoliteingot"
+    },
+    {
+      "name": "Nikolitreswordrec",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nikolitreswordrec"
+    },
+    {
+      "name": "CompressednikoliteblocBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressednikolitebloc_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -388,6 +453,8 @@
       "item.mod_jadenslore.andr_eentity_spawn_egg": "Andre Spawn Egg",
       "block.mod_jadenslore.twerker": "Twerker Block",
       "item.mod_jadenslore.nikolite": "Nikolite",
+      "item.mod_jadenslore.nikolitesword_1": "Nikolite Sword",
+      "item.mod_jadenslore.compnikoliteingot": "Compressed Nikolite Ingot",
       "item.mod_jadenslore.twerkcatalyst": "Lore Catalyst",
       "subtitles.andre1": "Andre Sucks a Vanilla Bean",
       "subtitles.andre2": "Andre Slaps a Vanilla Bean",
@@ -398,6 +465,7 @@
       "entity.mod_jadenslore.andre_attacker": "ANDRE",
       "block.mod_jadenslore.sackgrowa": "Sackgrowa",
       "subtitles.suckmyvanillabeanfull": "Andre Hugs His Vanilla Bean",
+      "block.mod_jadenslore.compressednikolitebloc": "Compressed Nikolite",
       "block.mod_jadenslore.shakedatfatbootay": "SHAKE DAT FAT BOOTAY",
       "entity.mod_jadenslore.andr_eentity": "Andre",
       "item.mod_jadenslore.sackersword": "Sacker",

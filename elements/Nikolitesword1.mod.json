@@ -1,0 +1,27 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "nikolitesword1",
+    "customModelName": "Normal",
+    "name": "Nikolite Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Jlct"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 4.0,
+    "enchantability": 20,
+    "damageVsEntity": 35.5,
+    "usageCount": 16000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

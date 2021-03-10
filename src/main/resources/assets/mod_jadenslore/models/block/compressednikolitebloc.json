@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mod_jadenslore:blocks/compnik",
+    "up": "mod_jadenslore:blocks/compnik",
+    "north": "mod_jadenslore:blocks/compnik",
+    "east": "mod_jadenslore:blocks/compnik",
+    "south": "mod_jadenslore:blocks/compnik",
+    "west": "mod_jadenslore:blocks/compnik",
+    "particle": "mod_jadenslore:blocks/compnik"
+  }
+}

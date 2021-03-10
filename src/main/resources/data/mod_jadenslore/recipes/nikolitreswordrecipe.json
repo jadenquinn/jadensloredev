@@ -1,0 +1,36 @@
+{
+  "group": "mod_jadenslore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "mod_jadenslore:nikolite"
+    },
+    "1": {
+      "item": "mod_jadenslore:compnikoliteingot"
+    },
+    "2": {
+      "item": "mod_jadenslore:nikolite"
+    },
+    "3": {
+      "item": "mod_jadenslore:nikolite"
+    },
+    "4": {
+      "item": "mod_jadenslore:compnikoliteingot"
+    },
+    "5": {
+      "item": "mod_jadenslore:nikolite"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mod_jadenslore:nikolitesword_1",
+    "count": 1
+  }
+}
