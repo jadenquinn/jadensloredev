@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.STRIPPED_WARPED_HYPHAE"
+      "value": "CUSTOM:Doublecompnikblock"
     },
     "name": "dcompnikrecipe",
     "namespace": "mod"
