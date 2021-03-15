@@ -508,8 +508,8 @@
       "block.mod_jadenslore.twerker": "Twerker Block",
       "item.mod_jadenslore.nikolite": "Nikolite",
       "subtitles.andre1": "Andre Sucks a Vanilla Bean",
-      "subtitles.andre2": "Andre Slaps a Vanilla Bean",
       "item.mod_jadenslore.smvb_disc.desc": "\"Suck My Vanilla Bean\" - Andre 2020",
+      "subtitles.andre2": "Andre Slaps a Vanilla Bean",
       "entity.mod_jadenslore.andre_attacker": "ANDRE",
       "block.mod_jadenslore.sackgrowa": "Sackgrowa",
       "subtitles.suckmyvanillabeanfull": "Andre Hugs His Vanilla Bean",
@@ -532,7 +532,7 @@
   "workspaceSettings": {
     "modid": "mod_jadenslore",
     "modName": "Jaden\u0027s Lore",
-    "version": "1.4.8",
+    "version": "1.4.9",
     "description": "Hey, guys and gals. This mod was created by JadensWebMC and is owned by JadensWeb. I made this mod because I love a lot of the funny moments I have with some people, you know who you are, and boom, made a mod around said funny moments.",
     "author": "JadensWebMC, JadensWeb, Andre, MrFinDrew",
     "websiteURL": "http://jadenswebmc.us.to/jadensmod/",
