@@ -529,6 +529,10 @@
       "item.mod_jadenslore.smvb_disc": "Music Disc"
     }
   },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
   "workspaceSettings": {
     "modid": "mod_jadenslore",
     "modName": "Jaden\u0027s Lore",
@@ -549,5 +553,5 @@
     "modElementsPackage": "to.us.jadenswebmc.lore",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100103117
+  "mcreatorVersion": 202100112313
 }
