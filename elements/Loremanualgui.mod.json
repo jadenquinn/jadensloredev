@@ -1,0 +1,116 @@
+{
+  "_fv": 17,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 225,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Welcome to Jaden's Lore!",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Welcome to Jaden's Lore!",
+          "x": 145,
+          "y": 12
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Goal 1: Grab some White Sacks from the white plants scattered",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Goal 1: Grab some White Sacks from the white plants scattered",
+          "x": 17,
+          "y": 23
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "scattered around your world.",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "scattered around your world.",
+          "x": 17,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Goal 2: Once you got an Iron Pickaxe (or an equivalent) go down to where",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Goal 2: Once you got an Iron Pickaxe (or an equivalent) go down to where",
+          "x": 17,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "diamonds generate, and look for Nikolite Ore.",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "diamonds generate, and look for Nikolite Ore.",
+          "x": 17,
+          "y": 52
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "This is what such an ore looks like:",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "This is what such an ore looks like:",
+          "x": 16,
+          "y": 61
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fdsgt.png",
+          "use1Xscale": false,
+          "name": "fdsgt.png",
+          "x": 197,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Get as much of that stuff as you can, trust me you'll need it.",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Get as much of that stuff as you can, trust me you'll need it.",
+          "x": 15,
+          "y": 76
+        }
+      }
+    ]
+  }
+}

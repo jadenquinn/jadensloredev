@@ -481,6 +481,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nikoliteoreloottable"
+    },
+    {
+      "name": "Loremanualbook",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "loremanualbook"
+    },
+    {
+      "name": "Loremanualgui",
+      "type": "gui",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "loremanualgui"
     }
   ],
   "variable_elements": [],
@@ -517,8 +535,8 @@
       "block.mod_jadenslore.twerker": "Twerker Block",
       "item.mod_jadenslore.nikolite": "Nikolite",
       "subtitles.andre1": "Andre Sucks a Vanilla Bean",
-      "item.mod_jadenslore.smvb_disc.desc": "\"Suck My Vanilla Bean\" - Andre 2020",
       "subtitles.andre2": "Andre Slaps a Vanilla Bean",
+      "item.mod_jadenslore.smvb_disc.desc": "\"Suck My Vanilla Bean\" - Andre 2020",
       "entity.mod_jadenslore.andre_attacker": "ANDRE",
       "block.mod_jadenslore.sackgrowa": "Sackgrowa",
       "subtitles.suckmyvanillabeanfull": "Andre Hugs His Vanilla Bean",
@@ -531,6 +549,7 @@
       "block.mod_jadenslore.sackura": "Sackura",
       "block.mod_jadenslore.nikolite_ore": "Nikolite Ore",
       "item.mod_jadenslore.andre_attacker_spawn_egg": "ANDRE Spawn Egg",
+      "item.mod_jadenslore.loremanualbook": "Jaden\u0027s Lore Guide",
       "block.mod_jadenslore.compressednikolitebloc": "Compressed Nikolite Block",
       "block.mod_jadenslore.shakedatfatbootay": "SHAKE DAT FAT BOOTAY",
       "item.mod_jadenslore.sackersword": "Sacker",
