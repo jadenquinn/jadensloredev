@@ -34,7 +34,7 @@
     ],
     "name": "Nikolite Ore",
     "specialInfo": [],
-    "hardness": 4.0,
+    "hardness": 2.25,
     "resistance": 15.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -78,9 +78,9 @@
     "soundOnStep": {
       "value": "STONE"
     },
-    "luminance": 0,
+    "luminance": 3,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

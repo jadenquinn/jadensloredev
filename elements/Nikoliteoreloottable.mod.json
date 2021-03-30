@@ -9,7 +9,7 @@
         "maxrolls": 1,
         "minbonusrolls": 0,
         "maxbonusrolls": 2,
-        "hasbonusrolls": true,
+        "hasbonusrolls": false,
         "entries": [
           {
             "type": "item",
@@ -17,18 +17,18 @@
               "value": "CUSTOM:Nikolite"
             },
             "weight": 1,
-            "minCount": 2,
+            "minCount": 1,
             "maxCount": 5,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,
             "explosionDecay": false,
-            "silkTouchMode": 2
+            "silkTouchMode": 0
           }
         ]
       }
     ],
-    "name": "blocks/nikoliteore",
+    "name": "blocks/nikolite_ore",
     "namespace": "mod"
   }
 }
