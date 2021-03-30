@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jadenslore:blocks/whiteplant0",
+    "up": "jadenslore:blocks/whiteplant",
+    "north": "jadenslore:blocks/whiteplant0",
+    "east": "jadenslore:blocks/whiteplant",
+    "south": "jadenslore:blocks/whiteplant",
+    "west": "jadenslore:blocks/whiteplant0",
+    "particle": "jadenslore:blocks/whiteplant0"
+  }
+}

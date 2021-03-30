@@ -3,7 +3,7 @@ package to.us.jadenswebmc.lore.block;
 
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
 import to.us.jadenswebmc.lore.item.CompnikoliteingotItem;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
@@ -22,11 +22,11 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-@ModJadensloreModElements.ModElement.Tag
-public class DoublecompnikblockBlock extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:doublecompnikblock")
+@JadensloreModElements.ModElement.Tag
+public class DoublecompnikblockBlock extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:doublecompnikblock")
 	public static final Block block = null;
-	public DoublecompnikblockBlock(ModJadensloreModElements instance) {
+	public DoublecompnikblockBlock(JadensloreModElements instance) {
 		super(instance, 33);
 	}
 

@@ -2,7 +2,7 @@
 package to.us.jadenswebmc.lore.entity;
 
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.network.NetworkHooks;
@@ -50,10 +50,10 @@ import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.BipedRenderer;
 import net.minecraft.block.material.Material;
 
-@ModJadensloreModElements.ModElement.Tag
-public class ANDREentityEntity extends ModJadensloreModElements.ModElement {
+@JadensloreModElements.ModElement.Tag
+public class ANDREentityEntity extends JadensloreModElements.ModElement {
 	public static EntityType entity = null;
-	public ANDREentityEntity(ModJadensloreModElements instance) {
+	public ANDREentityEntity(JadensloreModElements instance) {
 		super(instance, 14);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ModelRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
@@ -90,7 +90,7 @@ public class ANDREentityEntity extends ModJadensloreModElements.ModElement {
 				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("mod_jadenslore:textures/ass.png");
+						return new ResourceLocation("jadenslore:textures/ass.png");
 					}
 				};
 				customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
@@ -146,7 +146,7 @@ public class ANDREentityEntity extends ModJadensloreModElements.ModElement {
 
 		@Override
 		public net.minecraft.util.SoundEvent getAmbientSound() {
-			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("mod_jadenslore:andre1"));
+			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("jadenslore:andre1"));
 		}
 
 		@Override
@@ -156,7 +156,7 @@ public class ANDREentityEntity extends ModJadensloreModElements.ModElement {
 
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
-			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("mod_jadenslore:andre2"));
+			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("jadenslore:andre2"));
 		}
 	}
 }

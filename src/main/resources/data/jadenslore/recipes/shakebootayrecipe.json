@@ -1,0 +1,37 @@
+{
+  "group": "jadenslore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jadenslore:sack"
+    },
+    {
+      "item": "jadenslore:sack"
+    },
+    {
+      "item": "jadenslore:sack"
+    },
+    {
+      "item": "jadenslore:sackura"
+    },
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "jadenslore:sack"
+    },
+    {
+      "item": "jadenslore:sackura"
+    },
+    {
+      "item": "jadenslore:sackura"
+    },
+    {
+      "item": "jadenslore:sackura"
+    }
+  ],
+  "result": {
+    "item": "jadenslore:shakedatfatbootay",
+    "count": 4
+  }
+}

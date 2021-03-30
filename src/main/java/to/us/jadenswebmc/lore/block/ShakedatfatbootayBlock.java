@@ -2,7 +2,7 @@
 package to.us.jadenswebmc.lore.block;
 
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -24,11 +24,11 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-@ModJadensloreModElements.ModElement.Tag
-public class ShakedatfatbootayBlock extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:shakedatfatbootay")
+@JadensloreModElements.ModElement.Tag
+public class ShakedatfatbootayBlock extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:shakedatfatbootay")
 	public static final Block block = null;
-	public ShakedatfatbootayBlock(ModJadensloreModElements instance) {
+	public ShakedatfatbootayBlock(JadensloreModElements instance) {
 		super(instance, 10);
 	}
 

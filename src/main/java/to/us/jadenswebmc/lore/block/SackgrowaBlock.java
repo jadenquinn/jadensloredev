@@ -4,7 +4,7 @@ package to.us.jadenswebmc.lore.block;
 import to.us.jadenswebmc.lore.procedures.SackgrowaMobplayerCollidesWithPlantProcedure;
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
 import to.us.jadenswebmc.lore.item.SackItem;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -37,11 +37,11 @@ import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
 
-@ModJadensloreModElements.ModElement.Tag
-public class SackgrowaBlock extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:sackgrowa")
+@JadensloreModElements.ModElement.Tag
+public class SackgrowaBlock extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:sackgrowa")
 	public static final Block block = null;
-	public SackgrowaBlock(ModJadensloreModElements instance) {
+	public SackgrowaBlock(JadensloreModElements instance) {
 		super(instance, 3);
 	}
 

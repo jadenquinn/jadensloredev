@@ -1,7 +1,7 @@
 
 package to.us.jadenswebmc.lore.gui;
 
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
@@ -28,11 +28,11 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-@ModJadensloreModElements.ModElement.Tag
-public class LoremanualguiGui extends ModJadensloreModElements.ModElement {
+@JadensloreModElements.ModElement.Tag
+public class LoremanualguiGui extends JadensloreModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public LoremanualguiGui(ModJadensloreModElements instance) {
+	public LoremanualguiGui(JadensloreModElements instance) {
 		super(instance, 38);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);

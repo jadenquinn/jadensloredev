@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "jadenslore:blocks/whiteplant0",
+    "particle": "jadenslore:blocks/whiteplant0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "group": "jadenslore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jadenslore:twerkcatalyst"
+    },
+    {
+      "item": "jadenslore:sack"
+    },
+    {
+      "item": "jadenslore:sack"
+    },
+    {
+      "item": "jadenslore:sack"
+    },
+    {
+      "item": "jadenslore:sack"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    }
+  ],
+  "result": {
+    "item": "jadenslore:twerkcatalyst",
+    "count": 1
+  }
+}

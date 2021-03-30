@@ -1,0 +1,22 @@
+{
+  "group": "jadenslore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jadenslore:smvb_disc"
+    },
+    {
+      "item": "jadenslore:twerkcatalyst"
+    },
+    {
+      "item": "jadenslore:shakedatfatbootay"
+    },
+    {
+      "item": "jadenslore:shakedatfatbootay"
+    }
+  ],
+  "result": {
+    "item": "jadenslore:twerker",
+    "count": 4
+  }
+}

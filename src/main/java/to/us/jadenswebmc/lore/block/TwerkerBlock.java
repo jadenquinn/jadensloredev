@@ -5,7 +5,7 @@ import to.us.jadenswebmc.lore.procedures.TwerkerBlockDestroyedByExplosionProcedu
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
 import to.us.jadenswebmc.lore.item.SackerswordItem;
 import to.us.jadenswebmc.lore.item.SackItem;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
@@ -32,11 +32,11 @@ import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
 
-@ModJadensloreModElements.ModElement.Tag
-public class TwerkerBlock extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:twerker")
+@JadensloreModElements.ModElement.Tag
+public class TwerkerBlock extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:twerker")
 	public static final Block block = null;
-	public TwerkerBlock(ModJadensloreModElements instance) {
+	public TwerkerBlock(JadensloreModElements instance) {
 		super(instance, 9);
 	}
 

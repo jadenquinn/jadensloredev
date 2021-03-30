@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jadenslore:blocks/comp2",
+    "up": "jadenslore:blocks/comp2",
+    "north": "jadenslore:blocks/comp2",
+    "east": "jadenslore:blocks/comp2",
+    "south": "jadenslore:blocks/comp2",
+    "west": "jadenslore:blocks/comp2",
+    "particle": "jadenslore:blocks/comp2"
+  }
+}

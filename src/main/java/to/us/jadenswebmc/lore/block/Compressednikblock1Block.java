@@ -2,7 +2,7 @@
 package to.us.jadenswebmc.lore.block;
 
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
@@ -24,11 +24,11 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-@ModJadensloreModElements.ModElement.Tag
-public class Compressednikblock1Block extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:compressednikblock_1")
+@JadensloreModElements.ModElement.Tag
+public class Compressednikblock1Block extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:compressednikblock_1")
 	public static final Block block = null;
-	public Compressednikblock1Block(ModJadensloreModElements instance) {
+	public Compressednikblock1Block(JadensloreModElements instance) {
 		super(instance, 31);
 	}
 

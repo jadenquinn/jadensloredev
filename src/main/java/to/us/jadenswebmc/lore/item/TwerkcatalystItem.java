@@ -2,7 +2,7 @@
 package to.us.jadenswebmc.lore.item;
 
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -19,11 +19,11 @@ import net.minecraft.block.BlockState;
 
 import java.util.List;
 
-@ModJadensloreModElements.ModElement.Tag
-public class TwerkcatalystItem extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:twerkcatalyst")
+@JadensloreModElements.ModElement.Tag
+public class TwerkcatalystItem extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:twerkcatalyst")
 	public static final Item block = null;
-	public TwerkcatalystItem(ModJadensloreModElements instance) {
+	public TwerkcatalystItem(JadensloreModElements instance) {
 		super(instance, 16);
 	}
 

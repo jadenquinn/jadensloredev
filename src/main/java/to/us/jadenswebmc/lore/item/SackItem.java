@@ -2,7 +2,7 @@
 package to.us.jadenswebmc.lore.item;
 
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -26,11 +26,11 @@ import java.util.List;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
-@ModJadensloreModElements.ModElement.Tag
-public class SackItem extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:sack")
+@JadensloreModElements.ModElement.Tag
+public class SackItem extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:sack")
 	public static final Item block = null;
-	public SackItem(ModJadensloreModElements instance) {
+	public SackItem(JadensloreModElements instance) {
 		super(instance, 5);
 	}
 

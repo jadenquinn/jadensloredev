@@ -2,7 +2,7 @@
 package to.us.jadenswebmc.lore.block;
 
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -38,11 +38,11 @@ import net.minecraft.block.Block;
 
 import java.util.Random;
 
-@ModJadensloreModElements.ModElement.Tag
-public class NikoliteOreBlock extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:nikolite_ore")
+@JadensloreModElements.ModElement.Tag
+public class NikoliteOreBlock extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:nikolite_ore")
 	public static final Block block = null;
-	public NikoliteOreBlock(ModJadensloreModElements instance) {
+	public NikoliteOreBlock(JadensloreModElements instance) {
 		super(instance, 22);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
@@ -91,8 +91,7 @@ public class NikoliteOreBlock extends ModJadensloreModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("mod_jadenslore:nikolite_ore_match"),
-					() -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("jadenslore:nikolite_ore_match"), () -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -108,7 +107,7 @@ public class NikoliteOreBlock extends ModJadensloreModElements.ModElement {
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 9)).range(21)
 					.square().func_242731_b(17);
 			event.getRegistry().register(feature.setRegistryName("nikolite_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("mod_jadenslore:nikolite_ore"), configuredFeature);
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("jadenslore:nikolite_ore"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

@@ -4,7 +4,7 @@ package to.us.jadenswebmc.lore.block;
 import to.us.jadenswebmc.lore.procedures.SackuraPlantDestroyedByExplosionProcedure;
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
 import to.us.jadenswebmc.lore.item.SackItem;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -59,11 +59,11 @@ import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
 
-@ModJadensloreModElements.ModElement.Tag
-public class SackuraBlock extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:sackura")
+@JadensloreModElements.ModElement.Tag
+public class SackuraBlock extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:sackura")
 	public static final Block block = null;
-	public SackuraBlock(ModJadensloreModElements instance) {
+	public SackuraBlock(JadensloreModElements instance) {
 		super(instance, 2);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
@@ -110,7 +110,7 @@ public class SackuraBlock extends ModJadensloreModElements.ModElement {
 									.tries(64).build())
 					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(2);
 			event.getRegistry().register(feature.setRegistryName("sackura"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("mod_jadenslore:sackura"), configuredFeature);
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("jadenslore:sackura"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

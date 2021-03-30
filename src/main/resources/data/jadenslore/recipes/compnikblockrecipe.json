@@ -1,0 +1,42 @@
+{
+  "group": "jadenslore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "jadenslore:nikolite"
+    },
+    "1": {
+      "item": "jadenslore:nikolite"
+    },
+    "2": {
+      "item": "jadenslore:nikolite"
+    },
+    "3": {
+      "item": "jadenslore:nikolite"
+    },
+    "4": {
+      "item": "jadenslore:nikolite"
+    },
+    "5": {
+      "item": "jadenslore:nikolite"
+    },
+    "6": {
+      "item": "jadenslore:nikolite"
+    },
+    "7": {
+      "item": "jadenslore:nikolite"
+    },
+    "8": {
+      "item": "jadenslore:nikolite"
+    }
+  },
+  "result": {
+    "item": "jadenslore:compressednikblock_1",
+    "count": 1
+  }
+}

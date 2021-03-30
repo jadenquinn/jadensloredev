@@ -2,7 +2,7 @@
 package to.us.jadenswebmc.lore.item;
 
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -20,11 +20,11 @@ import net.minecraft.client.util.ITooltipFlag;
 
 import java.util.List;
 
-@ModJadensloreModElements.ModElement.Tag
-public class SMVBDiscItem extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:smvb_disc")
+@JadensloreModElements.ModElement.Tag
+public class SMVBDiscItem extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:smvb_disc")
 	public static final Item block = null;
-	public SMVBDiscItem(ModJadensloreModElements instance) {
+	public SMVBDiscItem(JadensloreModElements instance) {
 		super(instance, 15);
 	}
 
@@ -34,7 +34,7 @@ public class SMVBDiscItem extends ModJadensloreModElements.ModElement {
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, ModJadensloreModElements.sounds.get(new ResourceLocation("mod_jadenslore:suckmyvanillabeanfull")),
+			super(0, JadensloreModElements.sounds.get(new ResourceLocation("jadenslore:suckmyvanillabeanfull")),
 					new Item.Properties().group(JlctItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("smvb_disc");
 		}

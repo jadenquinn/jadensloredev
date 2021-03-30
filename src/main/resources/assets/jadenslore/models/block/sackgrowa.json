@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "jadenslore:blocks/whiteplant",
+    "particle": "jadenslore:blocks/whiteplant"
+  }
+}

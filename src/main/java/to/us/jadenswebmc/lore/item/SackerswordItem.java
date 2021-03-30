@@ -5,7 +5,7 @@ import to.us.jadenswebmc.lore.procedures.SackerswordRightClickedOnBlockProcedure
 import to.us.jadenswebmc.lore.procedures.SackerswordLivingEntityIsHitWithToolProcedure;
 import to.us.jadenswebmc.lore.procedures.SackerswordEntitySwingsItemProcedure;
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -36,11 +36,11 @@ import java.util.HashMap;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
-@ModJadensloreModElements.ModElement.Tag
-public class SackerswordItem extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:sackersword")
+@JadensloreModElements.ModElement.Tag
+public class SackerswordItem extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:sackersword")
 	public static final Item block = null;
-	public SackerswordItem(ModJadensloreModElements instance) {
+	public SackerswordItem(JadensloreModElements instance) {
 		super(instance, 6);
 	}
 

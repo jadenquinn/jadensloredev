@@ -47,7 +47,7 @@ public class LoremanualguiGuiWindow extends ContainerScreen<LoremanualguiGui.Gui
 	@Override
 	protected void drawGuiContainerBackgroundLayer(MatrixStack ms, float par1, int par2, int par3) {
 		GL11.glColor4f(1, 1, 1, 1);
-		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("mod_jadenslore:textures/fdsgt.png"));
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("jadenslore:textures/fdsgt.png"));
 		this.blit(ms, this.guiLeft + 183, this.guiTop + 53, 0, 0, 16, 16, 16, 16);
 	}
 

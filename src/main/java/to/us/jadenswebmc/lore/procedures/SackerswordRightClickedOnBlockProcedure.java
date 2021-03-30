@@ -1,7 +1,7 @@
 package to.us.jadenswebmc.lore.procedures;
 
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
-import to.us.jadenswebmc.lore.ModJadensloreMod;
+import to.us.jadenswebmc.lore.JadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreMod;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
@@ -13,31 +13,31 @@ import net.minecraft.block.Blocks;
 
 import java.util.Map;
 
-@ModJadensloreModElements.ModElement.Tag
-public class SackerswordRightClickedOnBlockProcedure extends ModJadensloreModElements.ModElement {
-	public SackerswordRightClickedOnBlockProcedure(ModJadensloreModElements instance) {
+@JadensloreModElements.ModElement.Tag
+public class SackerswordRightClickedOnBlockProcedure extends JadensloreModElements.ModElement {
+	public SackerswordRightClickedOnBlockProcedure(JadensloreModElements instance) {
 		super(instance, 8);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				ModJadensloreMod.LOGGER.warn("Failed to load dependency x for procedure SackerswordRightClickedOnBlock!");
+				JadensloreMod.LOGGER.warn("Failed to load dependency x for procedure SackerswordRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				ModJadensloreMod.LOGGER.warn("Failed to load dependency y for procedure SackerswordRightClickedOnBlock!");
+				JadensloreMod.LOGGER.warn("Failed to load dependency y for procedure SackerswordRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				ModJadensloreMod.LOGGER.warn("Failed to load dependency z for procedure SackerswordRightClickedOnBlock!");
+				JadensloreMod.LOGGER.warn("Failed to load dependency z for procedure SackerswordRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				ModJadensloreMod.LOGGER.warn("Failed to load dependency world for procedure SackerswordRightClickedOnBlock!");
+				JadensloreMod.LOGGER.warn("Failed to load dependency world for procedure SackerswordRightClickedOnBlock!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");

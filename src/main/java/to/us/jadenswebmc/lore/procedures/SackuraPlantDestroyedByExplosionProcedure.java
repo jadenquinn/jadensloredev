@@ -1,7 +1,7 @@
 package to.us.jadenswebmc.lore.procedures;
 
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
-import to.us.jadenswebmc.lore.ModJadensloreMod;
+import to.us.jadenswebmc.lore.JadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreMod;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
@@ -14,31 +14,31 @@ import net.minecraft.command.CommandSource;
 
 import java.util.Map;
 
-@ModJadensloreModElements.ModElement.Tag
-public class SackuraPlantDestroyedByExplosionProcedure extends ModJadensloreModElements.ModElement {
-	public SackuraPlantDestroyedByExplosionProcedure(ModJadensloreModElements instance) {
+@JadensloreModElements.ModElement.Tag
+public class SackuraPlantDestroyedByExplosionProcedure extends JadensloreModElements.ModElement {
+	public SackuraPlantDestroyedByExplosionProcedure(JadensloreModElements instance) {
 		super(instance, 4);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				ModJadensloreMod.LOGGER.warn("Failed to load dependency x for procedure SackuraPlantDestroyedByExplosion!");
+				JadensloreMod.LOGGER.warn("Failed to load dependency x for procedure SackuraPlantDestroyedByExplosion!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				ModJadensloreMod.LOGGER.warn("Failed to load dependency y for procedure SackuraPlantDestroyedByExplosion!");
+				JadensloreMod.LOGGER.warn("Failed to load dependency y for procedure SackuraPlantDestroyedByExplosion!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				ModJadensloreMod.LOGGER.warn("Failed to load dependency z for procedure SackuraPlantDestroyedByExplosion!");
+				JadensloreMod.LOGGER.warn("Failed to load dependency z for procedure SackuraPlantDestroyedByExplosion!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				ModJadensloreMod.LOGGER.warn("Failed to load dependency world for procedure SackuraPlantDestroyedByExplosion!");
+				JadensloreMod.LOGGER.warn("Failed to load dependency world for procedure SackuraPlantDestroyedByExplosion!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");

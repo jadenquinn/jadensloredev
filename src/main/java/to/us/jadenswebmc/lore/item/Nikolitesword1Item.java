@@ -2,7 +2,7 @@
 package to.us.jadenswebmc.lore.item;
 
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -11,11 +11,11 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
-@ModJadensloreModElements.ModElement.Tag
-public class Nikolitesword1Item extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:nikolitesword_1")
+@JadensloreModElements.ModElement.Tag
+public class Nikolitesword1Item extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:nikolitesword_1")
 	public static final Item block = null;
-	public Nikolitesword1Item(ModJadensloreModElements instance) {
+	public Nikolitesword1Item(JadensloreModElements instance) {
 		super(instance, 25);
 	}
 

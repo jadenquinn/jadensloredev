@@ -2,7 +2,7 @@
 package to.us.jadenswebmc.lore.item;
 
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -11,11 +11,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-@ModJadensloreModElements.ModElement.Tag
-public class CompnikoliteingotItem extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:compnikoliteingot")
+@JadensloreModElements.ModElement.Tag
+public class CompnikoliteingotItem extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:compnikoliteingot")
 	public static final Item block = null;
-	public CompnikoliteingotItem(ModJadensloreModElements instance) {
+	public CompnikoliteingotItem(JadensloreModElements instance) {
 		super(instance, 27);
 	}
 

@@ -4,7 +4,7 @@ package to.us.jadenswebmc.lore.item;
 import to.us.jadenswebmc.lore.itemgroup.JlctItemGroup;
 import to.us.jadenswebmc.lore.gui.LoremanualguiGuiWindow;
 import to.us.jadenswebmc.lore.gui.LoremanualguiGui;
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.items.ItemStackHandler;
@@ -48,11 +48,11 @@ import java.util.List;
 
 import io.netty.buffer.Unpooled;
 
-@ModJadensloreModElements.ModElement.Tag
-public class LoremanualbookItem extends ModJadensloreModElements.ModElement {
-	@ObjectHolder("mod_jadenslore:loremanualbook")
+@JadensloreModElements.ModElement.Tag
+public class LoremanualbookItem extends JadensloreModElements.ModElement {
+	@ObjectHolder("jadenslore:loremanualbook")
 	public static final Item block = null;
-	public LoremanualbookItem(ModJadensloreModElements instance) {
+	public LoremanualbookItem(JadensloreModElements instance) {
 		super(instance, 37);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

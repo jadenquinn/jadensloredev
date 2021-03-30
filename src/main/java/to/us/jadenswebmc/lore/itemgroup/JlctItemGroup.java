@@ -1,7 +1,7 @@
 
 package to.us.jadenswebmc.lore.itemgroup;
 
-import to.us.jadenswebmc.lore.ModJadensloreModElements;
+import to.us.jadenswebmc.lore.JadensloreModElements;
 
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -10,9 +10,9 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-@ModJadensloreModElements.ModElement.Tag
-public class JlctItemGroup extends ModJadensloreModElements.ModElement {
-	public JlctItemGroup(ModJadensloreModElements instance) {
+@JadensloreModElements.ModElement.Tag
+public class JlctItemGroup extends JadensloreModElements.ModElement {
+	public JlctItemGroup(JadensloreModElements instance) {
 		super(instance, 1);
 	}
 
