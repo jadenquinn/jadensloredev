@@ -28,8 +28,8 @@
       "Right-Click for an In-Game Manual!"
     ],
     "hasGlow": false,
-    "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
-    "inventoryStackSize": 64
+    "guiBoundTo": "Loremanualgui",
+    "inventorySize": 0,
+    "inventoryStackSize": 1
   }
 }
